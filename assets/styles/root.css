@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Yellowtail&display=swap");
+
+@font-face {
+  font-family: "zoho-puvi";
+  src: url("../media/fonts/Zoho\ Puvi\ Black.ttf");
+}
+@font-face {
+  font-family: "zoho-puvi-regular";
+  src: url("../media/fonts/Zoho\ Puvi\ Regular.ttf");
+}
+@font-face {
+  font-family: "zoho-puvi-semibold";
+  src: url("../media/fonts/Zoho\ Puvi\ Semibold.ttf");
+}
+@font-face {
+  font-family: "zoho-puvi-bold";
+  src: url("../media/fonts/Zoho\ Puvi\ Bold.ttf");
+}
+@font-face {
+  font-family: "zoho-puvi-italic";
+  src: url("../media/fonts/Zoho\ Puvi\ Regular\ Italic.ttf");
+}
+@font-face {
+  font-family: "zoho-puvi-thin";
+  src: url("../media/fonts/Zoho\ Puvi\ Thin.ttf");
+}
+@font-face {
+  font-family: "zoho-puvi-medium";
+  src: url("../media/fonts/Zoho\ Puvi\ Medium.ttf");
+}
+
+:root {
+  /* HEADER HEIGHT */
+  --header-height: 70px;
+  --container-max-width: 1280px;
+
+  /* COLORS */
+  --linear-gradient-1-1: #8a2387;
+  --linear-gradient-1-2: #e94057;
+  --linear-gradient-1-3: #f27121;
+  --linear-gradient-2-1: #659999;
+  --linear-gradient-2-2: #9d8d6a;
+  --linear-gradient-2-3: #f4791f;
+
+  --neon-color: #39ff14;
+  --primary-bg-color: #0f0f0f;
+  --secondary-bg-color: #202020;
+
+  --font-color-white: #ffffff;
+  --font-color-white-alt: #cecece57;
+  --font-color-black: #000000;
+
+  /* MARGINS */
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  --mb-5: 5rem;
+
+  /* FONT SIZES */
+  --smallest-text: 1.2rem;
+  --small-text: 1.6rem;
+  --big-text: 6.5rem;
+  --biggest-text: 7.5rem;
+  --section-title: var(--big-text);
+  --section-subtitle: 3.5rem;
+  --section-point-title: 2.3rem;
+  --body-text: 2.2rem;
+
+  /* FONT WEIGHTS */
+  --font-regular: 400;
+  --font-semi-bold: 500;
+  --font-bold: 700;
+}
